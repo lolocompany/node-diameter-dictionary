@@ -551,6 +551,10 @@
         {
             "code": 4294967295,
             "name": "Relay"
+        },
+        {
+            "code": 16777995,
+            "name": "Verizon Wireless"
         }
     ],
     "commands": [

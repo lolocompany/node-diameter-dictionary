@@ -254,6 +254,12 @@ getDictionary().then(function() {
         };
     });
 
+    // Add Verizon app
+    applications.push({
+        "code": 16777995,
+        "name": "Verizon Wireless"
+    });
+
     var commands = dictionary.commands.find().map(function(com) {
         var vendor = dictionary.vendors.findOne({
                 'vendor-id': {
